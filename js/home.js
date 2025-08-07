@@ -38,4 +38,4 @@ document.querySelector('.prev').addEventListener('click', () => {
 });
 
 // Responsive fix
-window.addEventListener('resize', updateSlidePosition);
+//window.addEventListener('resize', updateSlidePosition);
