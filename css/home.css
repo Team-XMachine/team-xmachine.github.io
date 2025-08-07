@@ -232,7 +232,7 @@ blockquote {
 
 .patrocinio {
   padding: 2rem 1rem;
-  background: linear-gradient(to bottom, black 0 5%, white 15% 100%);
+  background: black;
 }
 
 .patrocinio p {
@@ -240,5 +240,5 @@ blockquote {
 }
 
 .patrocinio p {
-  color: #000;
+  color: #fff;
 }
