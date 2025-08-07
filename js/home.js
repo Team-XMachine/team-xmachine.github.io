@@ -27,7 +27,7 @@ function updateSlidePosition() {
     slides.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
 }
 
-document.querySelector('.next').addEventListener('click', () => {
+/*document.querySelector('.next').addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % slideCount;
     updateSlidePosition();
 });
@@ -35,7 +35,7 @@ document.querySelector('.next').addEventListener('click', () => {
 document.querySelector('.prev').addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + slideCount) % slideCount;
     updateSlidePosition();
-});
+});*/
 
 // Responsive fix
 //window.addEventListener('resize', updateSlidePosition);
